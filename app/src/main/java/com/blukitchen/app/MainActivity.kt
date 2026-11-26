@@ -121,7 +121,7 @@ class MainActivity : Activity() {
         searchBox = EditText(this).apply {
             hint = "جست‌وجوی محصولات..."
             textSize = 15f
-            singleLine = true
+            isSingleLine = true
             setPadding(dp(14), dp(8), dp(14), dp(8))
             background = rounded(Color.WHITE, 14)
         }
